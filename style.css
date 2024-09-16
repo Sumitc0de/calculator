@@ -204,3 +204,29 @@ body {
 .icon-changer{
     color: white;
 }
+
+@media only screen and (max-width: 425px) {
+.main-conatiner{
+    width: 250px;
+    height: 550px;
+}
+
+.mode-change{
+    width: 70px;
+    height: 30px;
+}
+
+.box1{
+    height: 290px;
+}
+
+.box2{
+    height: 290px;
+}
+
+.btn{
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+}
+}
