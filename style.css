@@ -49,7 +49,27 @@ body {
     flex-direction: column;
 }
 
+.mode-change {
+    width: 100px;
+    height: 40px;
+    background-color: #A9DCFD;
+    margin-top: 25px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
+.icon {
+    font-size: 1.5rem;
+    color: #919EA7;
+}
+
+.icon.active {
+    color: #172128;
+}
 
 .changer {
     content: '';
